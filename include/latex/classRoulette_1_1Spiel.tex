@@ -1,0 +1,490 @@
+\hypertarget{classRoulette_1_1Spiel}{}\doxysection{Roulette\+::Spiel Class Reference}
+\label{classRoulette_1_1Spiel}\index{Roulette::Spiel@{Roulette::Spiel}}
+
+
+Die Klasse \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} repräsentiert das Spielgeschehen einer Roulette-\/\+Lobby.  
+
+
+
+
+{\ttfamily \#include $<$spiel.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRoulette_1_1Spiel_ad4284670b5baac643e9a7f8f3c331813}{Spiel}} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor der Spiel-\/\+Klasse. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoulette_1_1Spiel_afb3342ecb2269a624bc7068ce22b2c8f}{spiel\+\_\+beginnen}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Startet das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} in einer bestimmten Lobby. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_afef038d0e7e4e325cf19b36cfa59ba05}{spielen}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Führt eine Spielrunde in einer bestimmten Lobby aus. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_a63a1a1cf574c7bf392c065f0f78ef599}{get\+\_\+spiel\+\_\+nr}} ()
+\begin{DoxyCompactList}\small\item\em Gibt die Spielnummer zurück. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_aeb4509d9f7973c5b6b30b3bfd22f16e6}{lobby\+\_\+erstellen}} ()
+\begin{DoxyCompactList}\small\item\em Erstellt eine neue Lobby. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}{lobby\+\_\+beitreten}} (int lobby, std\+::string name)
+\begin{DoxyCompactList}\small\item\em Tritt einer bestehenden Lobby bei. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}{lobby\+\_\+beitreten}} (int lobby, std\+::string name)
+\begin{DoxyCompactList}\small\item\em Tritt einer bestehenden Lobby bei. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoulette_1_1Spiel_a7fba49eba22ac807b04134d7289d0543}{wetten}} (int lobby, std\+::string name, size\+\_\+t betrag, std\+::string typ)
+\begin{DoxyCompactList}\small\item\em Platziert eine Wette in einer bestimmten Lobby. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoulette_1_1Spiel_a23c63fc987c082a790e286fa89cdcc27}{lobbys\+\_\+anzeigen}} ()
+\begin{DoxyCompactList}\small\item\em Zeigt die verfügbaren Lobbys an. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classRoulette_1_1Spiel_a5b32219c5305a3cd29c0662def09366f}{lobbys\+\_\+anzeigen\+\_\+client}} ()
+\begin{DoxyCompactList}\small\item\em Gibt die Liste der Lobbys für den Client zurück. \end{DoxyCompactList}\item 
+Roulette\+Spiel \mbox{\hyperlink{classRoulette_1_1Spiel_a58246b54a36fafb741dd09fff516d1bf}{get\+\_\+lobby}} (int idx)
+\begin{DoxyCompactList}\small\item\em Gibt die Lobby an einem bestimmten Index zurück. \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{classRoulette_1_1Spiel_a39874851c571e44ab43f60bb1998bdaf}{guthaben}} (int lobby, std\+::string name)
+\begin{DoxyCompactList}\small\item\em Gibt das Guthaben eines Spielers in einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRoulette_1_1Spiel_a28203424f13deba16ef4b8d5af7fa4bf}{existiert\+\_\+lobby}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Überprüft, ob eine bestimmte Lobby existiert. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoulette_1_1Spiel_a837c9f66009f0c9fd2f76204e9eef26c}{lobby\+\_\+loeschen}} ()
+\begin{DoxyCompactList}\small\item\em Löscht eine bestimmte Lobby. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classRoulette_1_1Spiel_acfbd562b7684810a97b6ce1f5d3ed764}{lobby\+\_\+mitglieder}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Liste der Mitglieder einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRoulette_1_1Spiel_ad21d399266836cd21a30f1deeebc3c56}{spiel\+\_\+gestartet}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Überprüft, ob das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} in einer bestimmten Lobby gestartet wurde. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRoulette_1_1Spiel_ab2b068963ff03a724a553f8b6b7ed61e}{wetten\+\_\+pl}} (int lobby, std\+::string name, size\+\_\+t betrag, std\+::string typ)
+\begin{DoxyCompactList}\small\item\em Platziert eine spezielle Wette in einer bestimmten Lobby. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classRoulette_1_1Spiel_a3f63dd9ce51aa7506b43dee07db16f9e}{wetten\+\_\+im\+\_\+client\+\_\+anzeigen}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Liste der Wetten für den Client in einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_a6b2bfc0322031a0ea61072d5ec80e931}{mitspieler\+\_\+anz}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Anzahl der Mitspieler in einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classRoulette_1_1Spiel_a28ce0fa3498685b5fc3aef44650680a4}{farbe\+\_\+zu\+\_\+zahl}} (int zahl, int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Farbe zu einer bestimmten Zahl in einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_a8f49a2886c0125d8882c9fa1809fd42f}{zahl\+\_\+der\+\_\+lobby}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Zahl der Lobby zurück, in der ein bestimmtes \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} stattfindet. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_aad1550305230441e530792696f205a42}{runde\+\_\+einer\+\_\+lobby}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die aktuelle Runde einer bestimmten Lobby zurück. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{classRoulette_1_1Spiel_a5ebc0a700403698d1e7b2d1b3b6e99b9}{bestenliste\+\_\+return}} (int lobby)
+\begin{DoxyCompactList}\small\item\em Gibt die Bestenliste einer bestimmten Lobby zurück. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_a1ca24a0ec27424377b1a7fb597a9e11c}{runden}} = 10
+\item 
+int \mbox{\hyperlink{classRoulette_1_1Spiel_adabeca1784b68ddb9b394c08d2f1982b}{spiel\+\_\+nr}} = 1
+\item 
+std\+::vector$<$ Roulette\+Spiel $>$ \mbox{\hyperlink{classRoulette_1_1Spiel_a9fa1c5b7260d71375df72383b0d10c7f}{lobbys}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Die Klasse \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} repräsentiert das Spielgeschehen einer Roulette-\/\+Lobby. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_ad4284670b5baac643e9a7f8f3c331813}\label{classRoulette_1_1Spiel_ad4284670b5baac643e9a7f8f3c331813}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!Spiel@{Spiel}}
+\index{Spiel@{Spiel}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{Spiel()}{Spiel()}}
+{\footnotesize\ttfamily Roulette\+::\+Spiel\+::\+Spiel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Konstruktor der Spiel-\/\+Klasse. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a5ebc0a700403698d1e7b2d1b3b6e99b9}\label{classRoulette_1_1Spiel_a5ebc0a700403698d1e7b2d1b3b6e99b9}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!bestenliste\_return@{bestenliste\_return}}
+\index{bestenliste\_return@{bestenliste\_return}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{bestenliste\_return()}{bestenliste\_return()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Roulette\+::\+Spiel\+::bestenliste\+\_\+return (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Bestenliste einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Bestenliste abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die Bestenliste als Vektor von Zeichenketten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a28203424f13deba16ef4b8d5af7fa4bf}\label{classRoulette_1_1Spiel_a28203424f13deba16ef4b8d5af7fa4bf}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!existiert\_lobby@{existiert\_lobby}}
+\index{existiert\_lobby@{existiert\_lobby}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{existiert\_lobby()}{existiert\_lobby()}}
+{\footnotesize\ttfamily bool Roulette\+::\+Spiel\+::existiert\+\_\+lobby (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Überprüft, ob eine bestimmte Lobby existiert. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, die überprüft werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True, wenn die Lobby existiert, ansonsten False. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a28ce0fa3498685b5fc3aef44650680a4}\label{classRoulette_1_1Spiel_a28ce0fa3498685b5fc3aef44650680a4}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!farbe\_zu\_zahl@{farbe\_zu\_zahl}}
+\index{farbe\_zu\_zahl@{farbe\_zu\_zahl}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{farbe\_zu\_zahl()}{farbe\_zu\_zahl()}}
+{\footnotesize\ttfamily std\+::string Roulette\+::\+Spiel\+::farbe\+\_\+zu\+\_\+zahl (\begin{DoxyParamCaption}\item[{int}]{zahl,  }\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Farbe zu einer bestimmten Zahl in einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zahl} & Die Zahl, für die die Farbe abgerufen werden soll. \\
+\hline
+{\em lobby} & Die Lobby, in der die Farbe abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die Farbe zu der angegebenen Zahl. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a58246b54a36fafb741dd09fff516d1bf}\label{classRoulette_1_1Spiel_a58246b54a36fafb741dd09fff516d1bf}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!get\_lobby@{get\_lobby}}
+\index{get\_lobby@{get\_lobby}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{get\_lobby()}{get\_lobby()}}
+{\footnotesize\ttfamily Roulette\+Spiel Roulette\+::\+Spiel\+::get\+\_\+lobby (\begin{DoxyParamCaption}\item[{int}]{idx }\end{DoxyParamCaption})}
+
+
+
+Gibt die Lobby an einem bestimmten Index zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idx} & Der Index der gewünschten Lobby. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die Lobby an dem angegebenen Index. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a63a1a1cf574c7bf392c065f0f78ef599}\label{classRoulette_1_1Spiel_a63a1a1cf574c7bf392c065f0f78ef599}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!get\_spiel\_nr@{get\_spiel\_nr}}
+\index{get\_spiel\_nr@{get\_spiel\_nr}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{get\_spiel\_nr()}{get\_spiel\_nr()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::get\+\_\+spiel\+\_\+nr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gibt die Spielnummer zurück. 
+
+\begin{DoxyReturn}{Returns}
+Die Spielnummer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a39874851c571e44ab43f60bb1998bdaf}\label{classRoulette_1_1Spiel_a39874851c571e44ab43f60bb1998bdaf}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!guthaben@{guthaben}}
+\index{guthaben@{guthaben}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{guthaben()}{guthaben()}}
+{\footnotesize\ttfamily size\+\_\+t Roulette\+::\+Spiel\+::guthaben (\begin{DoxyParamCaption}\item[{int}]{lobby,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Gibt das Guthaben eines Spielers in einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der das Guthaben abgerufen werden soll. \\
+\hline
+{\em name} & Der Name des Spielers, dessen Guthaben abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Das Guthaben des Spielers in der Lobby. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}\label{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobby\_beitreten@{lobby\_beitreten}}
+\index{lobby\_beitreten@{lobby\_beitreten}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobby\_beitreten()}{lobby\_beitreten()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Roulette\+::\+Spiel\+::lobby\+\_\+beitreten (\begin{DoxyParamCaption}\item[{int}]{lobby,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Tritt einer bestehenden Lobby bei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, der beigetreten werden soll. \\
+\hline
+{\em name} & Der Name des Spielers, der beitritt. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True, wenn der Beitritt erfolgreich war, ansonsten False. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}\label{classRoulette_1_1Spiel_a7e5641faf159ae9b47c3f2d0e28f09f9}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobby\_beitreten@{lobby\_beitreten}}
+\index{lobby\_beitreten@{lobby\_beitreten}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobby\_beitreten()}{lobby\_beitreten()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Roulette\+::\+Spiel\+::lobby\+\_\+beitreten (\begin{DoxyParamCaption}\item[{int}]{lobby,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Tritt einer bestehenden Lobby bei. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, der beigetreten werden soll. \\
+\hline
+{\em name} & Der Name des Spielers, der beitritt. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True, wenn der Beitritt erfolgreich war, ansonsten False. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_aeb4509d9f7973c5b6b30b3bfd22f16e6}\label{classRoulette_1_1Spiel_aeb4509d9f7973c5b6b30b3bfd22f16e6}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobby\_erstellen@{lobby\_erstellen}}
+\index{lobby\_erstellen@{lobby\_erstellen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobby\_erstellen()}{lobby\_erstellen()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::lobby\+\_\+erstellen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Erstellt eine neue Lobby. 
+
+\begin{DoxyReturn}{Returns}
+Die Lobby-\/\+ID der neu erstellten Lobby. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a837c9f66009f0c9fd2f76204e9eef26c}\label{classRoulette_1_1Spiel_a837c9f66009f0c9fd2f76204e9eef26c}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobby\_loeschen@{lobby\_loeschen}}
+\index{lobby\_loeschen@{lobby\_loeschen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobby\_loeschen()}{lobby\_loeschen()}}
+{\footnotesize\ttfamily void Roulette\+::\+Spiel\+::lobby\+\_\+loeschen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Löscht eine bestimmte Lobby. 
+
+\mbox{\Hypertarget{classRoulette_1_1Spiel_acfbd562b7684810a97b6ce1f5d3ed764}\label{classRoulette_1_1Spiel_acfbd562b7684810a97b6ce1f5d3ed764}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobby\_mitglieder@{lobby\_mitglieder}}
+\index{lobby\_mitglieder@{lobby\_mitglieder}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobby\_mitglieder()}{lobby\_mitglieder()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Roulette\+::\+Spiel\+::lobby\+\_\+mitglieder (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Liste der Mitglieder einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Mitgliederliste abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Eine Liste der Mitglieder als Vektor von Zeichenketten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a23c63fc987c082a790e286fa89cdcc27}\label{classRoulette_1_1Spiel_a23c63fc987c082a790e286fa89cdcc27}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobbys\_anzeigen@{lobbys\_anzeigen}}
+\index{lobbys\_anzeigen@{lobbys\_anzeigen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobbys\_anzeigen()}{lobbys\_anzeigen()}}
+{\footnotesize\ttfamily void Roulette\+::\+Spiel\+::lobbys\+\_\+anzeigen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Zeigt die verfügbaren Lobbys an. 
+
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a5b32219c5305a3cd29c0662def09366f}\label{classRoulette_1_1Spiel_a5b32219c5305a3cd29c0662def09366f}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobbys\_anzeigen\_client@{lobbys\_anzeigen\_client}}
+\index{lobbys\_anzeigen\_client@{lobbys\_anzeigen\_client}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobbys\_anzeigen\_client()}{lobbys\_anzeigen\_client()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Roulette\+::\+Spiel\+::lobbys\+\_\+anzeigen\+\_\+client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gibt die Liste der Lobbys für den Client zurück. 
+
+\begin{DoxyReturn}{Returns}
+Eine Liste der Lobbys als Vektor von Zeichenketten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a6b2bfc0322031a0ea61072d5ec80e931}\label{classRoulette_1_1Spiel_a6b2bfc0322031a0ea61072d5ec80e931}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!mitspieler\_anz@{mitspieler\_anz}}
+\index{mitspieler\_anz@{mitspieler\_anz}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{mitspieler\_anz()}{mitspieler\_anz()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::mitspieler\+\_\+anz (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Anzahl der Mitspieler in einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Anzahl der Mitspieler abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die Anzahl der Mitspieler in der Lobby. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_aad1550305230441e530792696f205a42}\label{classRoulette_1_1Spiel_aad1550305230441e530792696f205a42}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!runde\_einer\_lobby@{runde\_einer\_lobby}}
+\index{runde\_einer\_lobby@{runde\_einer\_lobby}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{runde\_einer\_lobby()}{runde\_einer\_lobby()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::runde\+\_\+einer\+\_\+lobby (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die aktuelle Runde einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Runde abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die aktuelle Runde der Lobby. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_afb3342ecb2269a624bc7068ce22b2c8f}\label{classRoulette_1_1Spiel_afb3342ecb2269a624bc7068ce22b2c8f}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!spiel\_beginnen@{spiel\_beginnen}}
+\index{spiel\_beginnen@{spiel\_beginnen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{spiel\_beginnen()}{spiel\_beginnen()}}
+{\footnotesize\ttfamily void Roulette\+::\+Spiel\+::spiel\+\_\+beginnen (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Startet das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} in einer bestimmten Lobby. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} gestartet werden soll. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_ad21d399266836cd21a30f1deeebc3c56}\label{classRoulette_1_1Spiel_ad21d399266836cd21a30f1deeebc3c56}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!spiel\_gestartet@{spiel\_gestartet}}
+\index{spiel\_gestartet@{spiel\_gestartet}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{spiel\_gestartet()}{spiel\_gestartet()}}
+{\footnotesize\ttfamily bool Roulette\+::\+Spiel\+::spiel\+\_\+gestartet (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Überprüft, ob das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} in einer bestimmten Lobby gestartet wurde. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} überprüft werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True, wenn das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} gestartet wurde, ansonsten False. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_afef038d0e7e4e325cf19b36cfa59ba05}\label{classRoulette_1_1Spiel_afef038d0e7e4e325cf19b36cfa59ba05}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!spielen@{spielen}}
+\index{spielen@{spielen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{spielen()}{spielen()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::spielen (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Führt eine Spielrunde in einer bestimmten Lobby aus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der das \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} stattfindet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die gewinnende Zahl der Spielrunde. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a7fba49eba22ac807b04134d7289d0543}\label{classRoulette_1_1Spiel_a7fba49eba22ac807b04134d7289d0543}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!wetten@{wetten}}
+\index{wetten@{wetten}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{wetten()}{wetten()}}
+{\footnotesize\ttfamily void Roulette\+::\+Spiel\+::wetten (\begin{DoxyParamCaption}\item[{int}]{lobby,  }\item[{std\+::string}]{name,  }\item[{size\+\_\+t}]{betrag,  }\item[{std\+::string}]{typ }\end{DoxyParamCaption})}
+
+
+
+Platziert eine Wette in einer bestimmten Lobby. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der die Wette platziert werden soll. \\
+\hline
+{\em name} & Der Name des Spielers, der die Wette platziert. \\
+\hline
+{\em betrag} & Der Betrag der Wette. \\
+\hline
+{\em typ} & Der Typ der Wette. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a3f63dd9ce51aa7506b43dee07db16f9e}\label{classRoulette_1_1Spiel_a3f63dd9ce51aa7506b43dee07db16f9e}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!wetten\_im\_client\_anzeigen@{wetten\_im\_client\_anzeigen}}
+\index{wetten\_im\_client\_anzeigen@{wetten\_im\_client\_anzeigen}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{wetten\_im\_client\_anzeigen()}{wetten\_im\_client\_anzeigen()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Roulette\+::\+Spiel\+::wetten\+\_\+im\+\_\+client\+\_\+anzeigen (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Liste der Wetten für den Client in einer bestimmten Lobby zurück. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Wettenliste abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Eine Liste der Wetten als Vektor von Zeichenketten. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_ab2b068963ff03a724a553f8b6b7ed61e}\label{classRoulette_1_1Spiel_ab2b068963ff03a724a553f8b6b7ed61e}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!wetten\_pl@{wetten\_pl}}
+\index{wetten\_pl@{wetten\_pl}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{wetten\_pl()}{wetten\_pl()}}
+{\footnotesize\ttfamily void Roulette\+::\+Spiel\+::wetten\+\_\+pl (\begin{DoxyParamCaption}\item[{int}]{lobby,  }\item[{std\+::string}]{name,  }\item[{size\+\_\+t}]{betrag,  }\item[{std\+::string}]{typ }\end{DoxyParamCaption})}
+
+
+
+Platziert eine spezielle Wette in einer bestimmten Lobby. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, in der die Wette platziert werden soll. \\
+\hline
+{\em name} & Der Name des Spielers, der die Wette platziert. \\
+\hline
+{\em betrag} & Der Betrag der Wette. \\
+\hline
+{\em typ} & Der Typ der Wette. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a8f49a2886c0125d8882c9fa1809fd42f}\label{classRoulette_1_1Spiel_a8f49a2886c0125d8882c9fa1809fd42f}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!zahl\_der\_lobby@{zahl\_der\_lobby}}
+\index{zahl\_der\_lobby@{zahl\_der\_lobby}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{zahl\_der\_lobby()}{zahl\_der\_lobby()}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::zahl\+\_\+der\+\_\+lobby (\begin{DoxyParamCaption}\item[{int}]{lobby }\end{DoxyParamCaption})}
+
+
+
+Gibt die Zahl der Lobby zurück, in der ein bestimmtes \mbox{\hyperlink{classRoulette_1_1Spiel}{Spiel}} stattfindet. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lobby} & Die Lobby, deren Zahl abgerufen werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Die Zahl der Lobby. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a9fa1c5b7260d71375df72383b0d10c7f}\label{classRoulette_1_1Spiel_a9fa1c5b7260d71375df72383b0d10c7f}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!lobbys@{lobbys}}
+\index{lobbys@{lobbys}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{lobbys}{lobbys}}
+{\footnotesize\ttfamily std\+::vector$<$Roulette\+Spiel$>$ Roulette\+::\+Spiel\+::lobbys\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classRoulette_1_1Spiel_a1ca24a0ec27424377b1a7fb597a9e11c}\label{classRoulette_1_1Spiel_a1ca24a0ec27424377b1a7fb597a9e11c}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!runden@{runden}}
+\index{runden@{runden}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{runden}{runden}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::runden = 10\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classRoulette_1_1Spiel_adabeca1784b68ddb9b394c08d2f1982b}\label{classRoulette_1_1Spiel_adabeca1784b68ddb9b394c08d2f1982b}} 
+\index{Roulette::Spiel@{Roulette::Spiel}!spiel\_nr@{spiel\_nr}}
+\index{spiel\_nr@{spiel\_nr}!Roulette::Spiel@{Roulette::Spiel}}
+\doxysubsubsection{\texorpdfstring{spiel\_nr}{spiel\_nr}}
+{\footnotesize\ttfamily int Roulette\+::\+Spiel\+::spiel\+\_\+nr = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+roulette/\mbox{\hyperlink{spiel_8hpp}{spiel.\+hpp}}\end{DoxyCompactItemize}

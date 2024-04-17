@@ -1,0 +1,8 @@
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/demo1.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/spiel.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/edit_cache.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/rebuild_cache.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/list_install_components.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/install.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/install/local.dir
+/home/odin/Schreibtisch/poose2/build/CMakeFiles/install/strip.dir

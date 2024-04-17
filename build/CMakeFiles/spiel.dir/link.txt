@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o spiel.cpython-310-x86_64-linux-gnu.so CMakeFiles/spiel.dir/examples/spiel_pybind.cpp.o CMakeFiles/spiel.dir/src/hangman_board.cpp.o CMakeFiles/spiel.dir/src/spiel.cpp.o CMakeFiles/spiel.dir/src/spieler.cpp.o CMakeFiles/spiel.dir/src/spiellogik.cpp.o CMakeFiles/spiel.dir/src/wette.cpp.o 

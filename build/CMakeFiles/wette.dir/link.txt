@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o wette.cpython-310-x86_64-linux-gnu.so CMakeFiles/wette.dir/examples/wette_pybind.cpp.o CMakeFiles/wette.dir/src/hangman_board.cpp.o CMakeFiles/wette.dir/src/spieler.cpp.o CMakeFiles/wette.dir/src/spiellogik.cpp.o CMakeFiles/wette.dir/src/wette.cpp.o 

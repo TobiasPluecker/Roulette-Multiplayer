@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/demo1.dir/examples/demo1.cpp.o CMakeFiles/demo1.dir/src/hangman_board.cpp.o CMakeFiles/demo1.dir/src/spiel.cpp.o CMakeFiles/demo1.dir/src/spieler.cpp.o CMakeFiles/demo1.dir/src/spiellogik.cpp.o CMakeFiles/demo1.dir/src/wette.cpp.o -o demo1 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o spiellogik.cpython-310-x86_64-linux-gnu.so CMakeFiles/spiellogik.dir/examples/spiellogik_pybind.cpp.o CMakeFiles/spiellogik.dir/src/hangman_board.cpp.o CMakeFiles/spiellogik.dir/src/spiel.cpp.o CMakeFiles/spiellogik.dir/src/spieler.cpp.o CMakeFiles/spiellogik.dir/src/spiellogik.cpp.o CMakeFiles/spiellogik.dir/src/wette.cpp.o 

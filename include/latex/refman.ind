@@ -1,0 +1,109 @@
+\begin{theindex}
+
+  \item {bestenliste\_return}
+    \subitem {Roulette::Spiel}, \hyperpage{10}
+
+  \indexspace
+
+  \item {existiert\_lobby}
+    \subitem {Roulette::Spiel}, \hyperpage{11}
+
+  \indexspace
+
+  \item {farbe\_zu\_zahl}
+    \subitem {Roulette::Spiel}, \hyperpage{11}
+
+  \indexspace
+
+  \item {get\_lobby}
+    \subitem {Roulette::Spiel}, \hyperpage{11}
+  \item {get\_spiel\_nr}
+    \subitem {Roulette::Spiel}, \hyperpage{12}
+  \item {guthaben}
+    \subitem {Roulette::Spiel}, \hyperpage{12}
+
+  \indexspace
+
+  \item {lobby\_beitreten}
+    \subitem {Roulette::Spiel}, \hyperpage{12, 13}
+  \item {lobby\_erstellen}
+    \subitem {Roulette::Spiel}, \hyperpage{13}
+  \item {lobby\_loeschen}
+    \subitem {Roulette::Spiel}, \hyperpage{13}
+  \item {lobby\_mitglieder}
+    \subitem {Roulette::Spiel}, \hyperpage{14}
+  \item {lobbys}
+    \subitem {Roulette::Spiel}, \hyperpage{18}
+  \item {lobbys\_anzeigen}
+    \subitem {Roulette::Spiel}, \hyperpage{14}
+  \item {lobbys\_anzeigen\_client}
+    \subitem {Roulette::Spiel}, \hyperpage{14}
+
+  \indexspace
+
+  \item {mitspieler\_anz}
+    \subitem {Roulette::Spiel}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Roulette}, \hyperpage{7}
+  \item {roulette/spiel.hpp}, \hyperpage{19}
+  \item {Roulette::Spiel}, \hyperpage{9}
+    \subitem {bestenliste\_return}, \hyperpage{10}
+    \subitem {existiert\_lobby}, \hyperpage{11}
+    \subitem {farbe\_zu\_zahl}, \hyperpage{11}
+    \subitem {get\_lobby}, \hyperpage{11}
+    \subitem {get\_spiel\_nr}, \hyperpage{12}
+    \subitem {guthaben}, \hyperpage{12}
+    \subitem {lobby\_beitreten}, \hyperpage{12, 13}
+    \subitem {lobby\_erstellen}, \hyperpage{13}
+    \subitem {lobby\_loeschen}, \hyperpage{13}
+    \subitem {lobby\_mitglieder}, \hyperpage{14}
+    \subitem {lobbys}, \hyperpage{18}
+    \subitem {lobbys\_anzeigen}, \hyperpage{14}
+    \subitem {lobbys\_anzeigen\_client}, \hyperpage{14}
+    \subitem {mitspieler\_anz}, \hyperpage{14}
+    \subitem {runde\_einer\_lobby}, \hyperpage{15}
+    \subitem {runden}, \hyperpage{18}
+    \subitem {Spiel}, \hyperpage{10}
+    \subitem {spiel\_beginnen}, \hyperpage{15}
+    \subitem {spiel\_gestartet}, \hyperpage{15}
+    \subitem {spiel\_nr}, \hyperpage{18}
+    \subitem {spielen}, \hyperpage{16}
+    \subitem {wetten}, \hyperpage{16}
+    \subitem {wetten\_im\_client\_anzeigen}, \hyperpage{16}
+    \subitem {wetten\_pl}, \hyperpage{17}
+    \subitem {zahl\_der\_lobby}, \hyperpage{17}
+  \item {runde\_einer\_lobby}
+    \subitem {Roulette::Spiel}, \hyperpage{15}
+  \item {runden}
+    \subitem {Roulette::Spiel}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Spiel}
+    \subitem {Roulette::Spiel}, \hyperpage{10}
+  \item {spiel\_beginnen}
+    \subitem {Roulette::Spiel}, \hyperpage{15}
+  \item {spiel\_gestartet}
+    \subitem {Roulette::Spiel}, \hyperpage{15}
+  \item {spiel\_nr}
+    \subitem {Roulette::Spiel}, \hyperpage{18}
+  \item {spielen}
+    \subitem {Roulette::Spiel}, \hyperpage{16}
+
+  \indexspace
+
+  \item {wetten}
+    \subitem {Roulette::Spiel}, \hyperpage{16}
+  \item {wetten\_im\_client\_anzeigen}
+    \subitem {Roulette::Spiel}, \hyperpage{16}
+  \item {wetten\_pl}
+    \subitem {Roulette::Spiel}, \hyperpage{17}
+
+  \indexspace
+
+  \item {zahl\_der\_lobby}
+    \subitem {Roulette::Spiel}, \hyperpage{17}
+
+\end{theindex}

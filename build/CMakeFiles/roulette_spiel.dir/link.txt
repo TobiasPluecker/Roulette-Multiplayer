@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o roulette_spiel.cpython-310-x86_64-linux-gnu.so CMakeFiles/roulette_spiel.dir/examples/spiellogik_pybind.cpp.o CMakeFiles/roulette_spiel.dir/src/hangman_board.cpp.o CMakeFiles/roulette_spiel.dir/src/spieler.cpp.o CMakeFiles/roulette_spiel.dir/src/spiellogik.cpp.o CMakeFiles/roulette_spiel.dir/src/wette.cpp.o 
